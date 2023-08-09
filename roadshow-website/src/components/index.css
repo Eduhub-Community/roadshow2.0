@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Sora&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Sora', sans-serif; */
+
+
+:root{
+    --ff--sora: 'Sora', sans-serif;
+    --ff--jost: 'Jost', sans-serif;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+/* ALL THE ROOT RELATED STUFFS DONE ABOVE THIS POINT */
+
+.font-sora{
+    font-family: var(--ff--sora);
+}
+
+.font-jost{
+    font-family: var(--ff--jost);
+}
+
+.hamburgerMenuPopup{
+    top: 0;
+    right: -320px;
+}
+
+.retro-shadow{
+    box-shadow: 0.4rem 0.4rem #2e2b2b;
+}
+
+.retro-shadow2{
+    box-shadow: 0.4rem 0.4rem #2e2b2b, -0.4rem 0.4rem #2e2b2b;
+}
+
+.retro-shadow3{
+    box-shadow: 0.4rem 0.4rem #BFB8B8, -0.4rem 0.4rem #BFB8B8;
+}
+
+.retro-shadow4{
+    box-shadow: 0.3rem 0.3rem #BFB8B8;
+}
+
+.heroSection{
+    height: 34vh;
+    width: 100%;
+}
+
+.belowNavbarPopup{
+    z-index: -1;
+}
+
+.navbarLevel{
+    z-index: +50;
+}
+
+
+.lines{
+    transition: all;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.ham1{
+   top: 46%;
+   rotate: -45deg;
+}
+
+.ham3{
+    bottom: 46%;
+    rotate: 45deg;
+ }
+
+.ham2{
+    opacity: 0;
+ }
+
