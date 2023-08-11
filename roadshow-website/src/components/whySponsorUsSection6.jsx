@@ -22,10 +22,12 @@ export const WhySponsorSection = () => {
 
 
             {/* THE IMAGE OF THE WHY SPONSOR US SECTION GOES HERE */}
-            <div className="sm:flex sm:justify-center sm:items-center sm:rotate-3">
-                <div className="flex items-center justify-center sm:w-4/5 
-            sm:px-6 sm:py-6 sm:bg-[#c9c9c9] ">
-                    <img className="w-4/5 sm:w-auto retro-shadow retro-shadow2Opp " src={eduhubGroup} alt="" />
+            <div className="flex justify-center items-center  
+             ">
+                <div className="flex items-center justify-center w-[22rem] px-4 py-4  
+                sm:w-4/5   
+            sm:px-6 sm:py-6 bg-[#c9c9c9] rotate-3">
+                    <img className="w-5/5 sm:w-auto retro-shadow2Opp " src={eduhubGroup} alt="" />
                 </div>
             </div>
 
