@@ -109,9 +109,9 @@ export const HeroSection1 = () => {
             <div className=" absolute bottom-12 left-12 font-sora sm:bottom-32 sm:left-10">
 
 
-                <h1 className=" font-black text-white text-4xl sm:text-5xl">EDUHUB COMMUNITY</h1>
+                <h1 className=" font-black text-white text-4xl sm:text-5xl lg:text-8xl">EDUHUB COMMUNITY</h1>
 
-                <p className=" font-black text-white text-lg sm:text-xl">ROADSHOW</p>
+                <p className=" font-black text-white text-lg sm:text-xl lg:text-3xl   lg:ml-2">ROADSHOW</p>
 
             </div>
 

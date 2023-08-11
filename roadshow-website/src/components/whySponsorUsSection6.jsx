@@ -29,14 +29,15 @@ export const WhySponsorSection = () => {
             <br />
             <br />
 
-            <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup">
+            <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup retro-shadow2Opp
+            lg:text-5xl lg:w-72 lg:h-20">
                 ABOUT US
             </div>
 
             <br />
             <br />
             <br />
-            <p className="font-jost py-8 px-8 leading-6">It’s a community for learners by learners. The vision of this community is to build an environment where people can learn, implement and grow together. It provides people the opportunity to work with peers, showcase their talent and enhance their skills by working in-team. We promote Open source, Web3, Web dev culture through our community. We are the frontliner in the field of Open source and Web3.0.</p>
+            <p className="font-jost py-8 px-8 leading-6 sm:text-lg sm:mx-8">It’s a community for learners by learners. The vision of this community is to build an environment where people can learn, implement and grow together. It provides people the opportunity to work with peers, showcase their talent and enhance their skills by working in-team. We promote Open source, Web3, Web dev culture through our community. We are the frontliner in the field of Open source and Web3.0.</p>
 
             
         </div>

@@ -11,6 +11,10 @@ font-family: 'Sora', sans-serif; */
 :root{
     --ff--sora: 'Sora', sans-serif;
     --ff--jost: 'Jost', sans-serif;
+    --ff--poppins: 'Poppins', sans-serif;
+    --ff--ubuntu: 'Ubuntu', sans-serif;
+    --ff--mos: 'Montserrat', sans-serif;
+    --ff--open: 'Open Sans', sans-serif;
 }
 
 body{
@@ -26,6 +30,25 @@ body{
 .font-jost{
     font-family: var(--ff--jost);
 }
+
+.font-poppins{
+    font-family: var(--ff--poppins);
+}
+
+.font-ubuntu{
+    font-family: var(--ff--ubuntu);
+}
+
+.font-mos{
+    font-family: var(--ff--mos);
+}
+
+.font-open{
+    font-family: var(--ff--open);
+}
+
+
+
 
 .hamburgerMenuPopup{
     top: 0;

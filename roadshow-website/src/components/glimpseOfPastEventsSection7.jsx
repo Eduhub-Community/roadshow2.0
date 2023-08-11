@@ -25,7 +25,7 @@ export const GlimpseOfPastEvents = () => {
                 <br />
 
                 {/* IMAGE 1 AND 2 OF THE EVENTS SECTION */}
-                <div>
+                <div className="sm:flex sm:flex-col sm:pl-8">
                     <div className=" bg-white w-4/5 flex flex-col justify-center items-center px-4 py-4 -rotate-6 relative left-12">
                         <img className=" " src={event1Img} alt="" />
                     </div>
@@ -50,7 +50,7 @@ export const GlimpseOfPastEvents = () => {
 
 
 
-            <div className="relative">
+            <div className="relative sm:mt-8">
 
                 <br />
                 <br />
@@ -58,7 +58,7 @@ export const GlimpseOfPastEvents = () => {
 
 
                 {/* IMAGE 3 AND 4 OF THE EVENTS SECTION */}
-                <div>
+                <div className="sm:flex sm:flex-col sm:pl-8">
                     <div className=" bg-white w-4/5 flex flex-col justify-center items-center px-4 py-4 -rotate-12 relative left-12">
                         <img className=" " src={event3Img} alt="" />
                     </div>
