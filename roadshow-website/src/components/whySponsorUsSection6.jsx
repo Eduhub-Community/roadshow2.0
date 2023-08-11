@@ -43,7 +43,7 @@ export const WhySponsorSection = () => {
             <br />
             <br />
             <br />
-            <p className="font-ubuntu py-8 px-8 leading-6 sm:text-lg sm:mx-8 lg:my-8 lg:mt-12 lg:mx-12">It’s a community for learners by learners. The vision of this community is to build an environment where people can learn, implement and grow together. It provides people the opportunity to work with peers, showcase their talent and enhance their skills by working in-team. We promote Open source, Web3, Web dev culture through our community. We are the frontliner in the field of Open source and Web3.0.</p>
+            <p className="font-ubuntu py-8 px-8 leading-6 sm:text-lg sm:mx-8 lg:my-8 lg:mt-12 lg:mx-12 xl:text-[1.45rem]">It’s a community for learners by learners. The vision of this community is to build an environment where people can learn, implement and grow together. It provides people the opportunity to work with peers, showcase their talent and enhance their skills by working in-team. We promote Open source, Web3, Web dev culture through our community. We are the frontliner in the field of Open source and Web3.0.</p>
 
 
         </div>

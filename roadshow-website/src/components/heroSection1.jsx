@@ -111,7 +111,7 @@ export const HeroSection1 = () => {
 
                 <h1 className=" font-black text-white text-4xl 
                 sm:text-7xl
-                 lg:text-8xl">EDUHUB COMMUNITY</h1>
+                 lg:text-8xl "><span >EDUHUB</span> <br /> COMMUNITY</h1>
 
                 <p className=" font-black text-white text-lg sm:text-xl lg:text-3xl   lg:ml-2">ROADSHOW</p>
 
