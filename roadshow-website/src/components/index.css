@@ -40,6 +40,8 @@ body{
     box-shadow: 0.4rem 0.4rem #2e2b2b, -0.4rem 0.4rem #2e2b2b;
 }
 
+
+
 .retro-shadow3{
     box-shadow: 0.4rem 0.4rem #BFB8B8, -0.4rem 0.4rem #BFB8B8;
 }
@@ -93,6 +95,7 @@ body{
 .slides{
     position: absolute;
     transition:  1s;
+    
 }
 
 .image1{
@@ -129,5 +132,9 @@ body{
 
         /* width: 100%; */
         height: 100%;
+    }
+
+    .retro-shadow2Opp{
+        box-shadow: 0rem 0rem #2e2b2b, -0rem 0rem #2e2b2b;
     }
 }

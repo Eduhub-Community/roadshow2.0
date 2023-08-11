@@ -105,6 +105,7 @@ export const HeroSection1 = () => {
              
 
 
+
             <div className=" absolute bottom-12 left-12 font-sora sm:bottom-32 sm:left-10">
 
 
@@ -113,6 +114,8 @@ export const HeroSection1 = () => {
                 <p className=" font-black text-white text-lg sm:text-xl">ROADSHOW</p>
 
             </div>
+
+
 
         </div>
     );

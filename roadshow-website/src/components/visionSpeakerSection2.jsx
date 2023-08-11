@@ -8,12 +8,15 @@ export const VisionSpeakerSection2 = () => {
     return (
         <div >
 
+
+
             {/* THE VISION SECTION */}
-            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1 retro-shadow2">
+            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1 retro-shadow2 
+            retro-shadow2Opp sm:mt-12 sm:mb-4">
                 VISION
             </div>
 
-            <p className=" px-8 py-8 font-jost leading-6">It’s a community for learners by learners. The vision of this
+            <p className=" px-8 py-8 font-jost leading-6 sm:text-lg sm:leading-7">It’s a community for learners by learners. The vision of this
                 community is to build an environment where people can learn,
                 implement and grow together. It provides people the opportunity
                 to work with peers, showcase their talent and enhance their skills
@@ -25,7 +28,7 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* THE SPEAKER SECTION */}
-            <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup">
+            <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup retro-shadow2Opp">
                 SPEAKER
             </div>
 
@@ -34,21 +37,23 @@ export const VisionSpeakerSection2 = () => {
             <br />
             <br />
             <br />
+            <br />
 
 
             {/* SPEAKER 1 */}
-            <div className="flex flex-col px-8 items-center ">
+            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12">
 
 
                 <br />
-
                 <img className="w-80" src={speaker} alt="Name of the speaker" />
                 <br />
                 <br />
 
-                <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative right-11">LINUS TORWALD</p>
+                <div className="flex flex-col justify-center items-center sm:items-start">
+                    <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative right-11 sm:right-0 left-7">LINUS TORWALD</p>
 
-                <p className=" py-4 font-jost leading-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                    <p className=" py-4 font-jost leading-6 sm:ml-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                </div>
 
             </div>
             <br />
@@ -56,18 +61,19 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* SPEAKER 2 */}
-            <div className="flex flex-col px-8 items-center ">
+            <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 ">
 
 
                 <br />
-
                 <img className="w-80" src={speaker} alt="Name of the speaker" />
                 <br />
                 <br />
 
-                <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative right-11">LINUS TORWALD</p>
+                <div className="flex flex-col justify-center items-center sm:items-end">
+                    <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative right-11 ">LINUS TORWALD</p>
 
-                <p className=" py-4 font-jost leading-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                    <p className=" py-4 font-jost leading-6  sm:text-right sm:mr-11">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                </div>
 
             </div>
 
