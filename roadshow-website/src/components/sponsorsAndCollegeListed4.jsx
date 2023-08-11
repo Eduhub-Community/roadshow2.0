@@ -10,17 +10,17 @@ export const SponsorsAndCollegeListed = () => {
             <br />
 
             {/* SPONSORS SECTION */}
-            <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 belowNavbarPopup retro-shadow2Opp
+            <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0  retro-shadow2Opp
             lg:text-5xl lg:w-[24rem] lg:h-20">
                 SPONSORS
             </div>
 
-
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            {/* <div className="breaks"></div> */}
+            <br className=" bg-red-600 breaks" />
+            <br className=" bg-red-600 breaks" />
+            <br className=" bg-red-600 breaks" />
+            <br className=" bg-red-600 breaks" />
+            <br className=" bg-red-600 breaks" />
             <div className="flex flex-col justify-center items-center 
             lg:flex-row lg:justify-evenly
             xl:py-20">

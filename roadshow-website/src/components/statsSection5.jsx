@@ -9,7 +9,7 @@ export const StatsSection4 = () => {
 
 
     return (
-        <div id="Section5" className="lg:my-8">
+        <div id="Section5" className="lg:my-8 ">
 
             <br />
             <br />

@@ -181,33 +181,58 @@ body{
     width: 100%;
     max-width: 1920px;
     min-width: 100px;
+
+    background-color: #e6e6e6;
+    /* position: relative; */
 }
 #Section3{
     width: 100%;
     max-width: 1920px;
     min-width: 100px;
+
+    position: relative;
+    background-color: #e6e6e6;
 }
 #Section4{
     width: 100%;
     max-width: 1920px;
     min-width: 100px;
+
+    position: relative;
+    background-color: #e6e6e6;
 }
 #Section5{
     width: 100%;
     max-width: 1920px;
     min-width: 100px;
+
+    position: relative;
+    background-color: #e6e6e6;
 }
 #Section6{
     width: 100%;
     max-width: 1920px;
     min-width: 100px;
+
+    position: relative;
+    background-color: #e6e6e6;
 }
+
+.breaks{
+    background-color: red;
+    height: 1rem;
+    width: 100%;
+    
+    max-width: 1920px;
+    min-width: 100px;
+}
+
 @media (min-width: 1920px) {
     #Main{
         display: flex;
         align-items: center;
         justify-content: center;
 
-        /* background-color: yellow; */
+        background-color: #e6e6e6;
     }
 }

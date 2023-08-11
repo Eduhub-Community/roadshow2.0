@@ -9,32 +9,33 @@ export const VisionSpeakerSection2 = () => {
         <div id="Section2">
 
 
-
-            {/* THE VISION SECTION */}
-            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1  
+            <div className="2xl:relative">
+                {/* THE VISION SECTION */}
+                <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1  
             retro-shadow2Opp sm:mt-12 sm:mb-4 
             lg:text-5xl lg:w-72 lg:h-20
             ">
-                VISION
-            </div>
+                    VISION
+                </div>
 
-            <p className=" px-8 py-8 font-ubuntu leading-6 sm:text-lg sm:leading-7 sm:mx-8 lg:text-xl lg:mx-12 xl:text-2xl
+                <p className=" px-8 py-8 font-ubuntu leading-6 sm:text-lg sm:leading-7 sm:mx-8 lg:text-xl lg:mx-12 xl:text-2xl
             xl:my-12 xl:text-[1.6rem] xl:leading-9 xl:px-32">It’s a community for learners by learners. The vision of this
-                community is to build an environment where people can learn,
-                implement and grow together. It provides people the opportunity
-                to work with peers, showcase their talent and enhance their skills
-                by working in-team. We promote Open source, Web3, Web dev
-                culture through our community. We are the frontliner in the field
-                of Open source and Web3.0.</p>
+                    community is to build an environment where people can learn,
+                    implement and grow together. It provides people the opportunity
+                    to work with peers, showcase their talent and enhance their skills
+                    by working in-team. We promote Open source, Web3, Web dev
+                    culture through our community. We are the frontliner in the field
+                    of Open source and Web3.0.</p>
 
 
 
 
-            {/* THE SPEAKER SECTION */}
-            <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 belowNavbarPopup retro-shadow2Opp
+                {/* THE SPEAKER SECTION */}
+                <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 retro-shadow2Opp
             lg:text-5xl lg:w-[20rem] lg:h-20
             ">
-                SPEAKER
+                    SPEAKER
+                </div>
             </div>
 
 
