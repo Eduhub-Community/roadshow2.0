@@ -12,6 +12,7 @@ import { GlimpseOfPastEvents } from './components/glimpseOfPastEventsSection7';
 
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
@@ -24,3 +25,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <GlimpseOfPastEvents/>
   </React.StrictMode>,
 )
+
+
+

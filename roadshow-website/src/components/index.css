@@ -48,15 +48,14 @@ body{
     box-shadow: 0.3rem 0.3rem #BFB8B8;
 }
 
-.heroSection{
-    height: 34vh;
-    width: 100%;
-}
 
 .belowNavbarPopup{
     z-index: -1;
 }
 
+.somewhereBetween{
+    z-index: +10;
+}
 .navbarLevel{
     z-index: +50;
 }
@@ -69,16 +68,65 @@ body{
 }
 
 .ham1{
-   top: 46%;
-   rotate: -45deg;
+    top: 46%;
+    rotate: -45deg;
 }
 
 .ham3{
     bottom: 46%;
     rotate: 45deg;
- }
+}
 
 .ham2{
     opacity: 0;
- }
+}
 
+/* the hero section image for phones */
+
+
+.heroSection{
+    height: 34vh;
+    width: 100%;
+}
+
+
+.slides{
+    position: absolute;
+    transition:  1s;
+}
+
+.image1{
+    left: 0%;
+}
+
+.image2{
+    left: 100%;
+}
+
+.test{
+    background-color: red;
+    color: white;
+    padding: 2rem;
+    position: absolute;
+
+    z-index: 200;
+}
+
+.leftSlider{
+    height: 92%;
+    width: 40%;
+}
+
+
+@media (min-width: 640px) {
+    #HeroSectionId{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .slides{
+        
+        width: 100%;
+        height: 92%;
+    }
+}
