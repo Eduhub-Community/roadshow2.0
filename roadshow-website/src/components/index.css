@@ -35,9 +35,7 @@ body{
     font-family: var(--ff--poppins);
 }
 
-.font-ubuntu{
-    font-family: var(--ff--ubuntu);
-}
+
 
 .font-mos{
     font-family: var(--ff--mos);
@@ -159,5 +157,9 @@ body{
 
     .retro-shadow2Opp{
         box-shadow: 0rem 0rem #2e2b2b, -0rem 0rem #2e2b2b;
+    }
+
+    .font-ubuntu{
+        font-family: var(--ff--ubuntu);
     }
 }

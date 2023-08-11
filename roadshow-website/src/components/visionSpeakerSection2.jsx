@@ -43,7 +43,7 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* SPEAKER 1 */}
-            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12">
+            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12">
 
 
                 <br />
@@ -52,7 +52,7 @@ export const VisionSpeakerSection2 = () => {
                 <br />
 
                 <div className="flex flex-col justify-center items-center sm:items-start">
-                    <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative right-11 sm:right-0 left-7 lg:text-4xl">LINUS TORWALD</p>
+                    <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative sm:right-0 sm:left-7 lg:text-4xl">LINUS TORWALD</p>
 
                     <p className=" py-4 font-ubuntu leading-6 sm:ml-8 lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
                 </div>
@@ -63,7 +63,7 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* SPEAKER 2 */}
-            <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 ">
+            <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 lg:px-12">
 
 
                 <br />
@@ -71,11 +71,11 @@ export const VisionSpeakerSection2 = () => {
                 <br />
                 <br />
 
-                <div className="flex flex-col justify-center items-center sm:items-end">
-                    <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative right-11
-                    lg:text-4xl ">LINUS TORWALD</p>
+                <div className="flex flex-col justify-center items-center sm:items-end relative">
+                    <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative 
+                    lg:text-4xl sm:right-60 lg:right-[22.5rem]">LINUS TORWALD</p>
 
-                    <p className=" py-4 font-ubuntu leading-6  sm:text-right sm:mr-11  lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                    <p className=" py-4 font-jost font-ubuntu leading-6  sm:text-left sm:mr-11  lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
                 </div>
 
             </div>
