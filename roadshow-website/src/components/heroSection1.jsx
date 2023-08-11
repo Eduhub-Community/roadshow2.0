@@ -104,7 +104,8 @@ export const HeroSection1 = () => {
 
              
 
-            <div className=" absolute bottom-12 left-12 font-sora sm:bottom-20 sm:left-10">
+
+            <div className=" absolute bottom-12 left-12 font-sora sm:bottom-32 sm:left-10">
 
 
                 <h1 className=" font-black text-white text-4xl sm:text-5xl">EDUHUB COMMUNITY</h1>

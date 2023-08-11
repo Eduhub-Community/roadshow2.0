@@ -120,13 +120,14 @@ body{
 
 @media (min-width: 640px) {
     #HeroSectionId{
-        height: 50vh;
+        height: 100vh;
         width: 100%;
     }
 
     .slides{
-        
-        width: 100%;
-        height: 92%;
+        object-fit: cover;
+
+        /* width: 100%; */
+        height: 100%;
     }
 }
