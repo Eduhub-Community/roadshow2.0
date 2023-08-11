@@ -17,7 +17,8 @@ export const GlimpseOfPastEvents = () => {
                 <br />
 
                 <div>
-                    <h1 className=" text-[#c9c9c9] font-sora text-4xl font-black px-8">GLIMPSE OF <br />PAST <span className="text-white underline underline-offset-8 ">EVENTS</span></h1>
+                    <h1 className=" text-[#c9c9c9] font-sora text-4xl font-black px-8
+                    lg:text-6xl">GLIMPSE OF <br />PAST <span className="text-white underline underline-offset-8 ">EVENTS</span></h1>
                 </div>
 
                 <br />
@@ -41,7 +42,7 @@ export const GlimpseOfPastEvents = () => {
                 <br />
                 <br />
                 {/* TECH MEET HEADING SECTION */}
-                <div className=" w-60 bg-white h-16 text-[#0249ac] font-sora font-black text-3xl flex items-center  pl-6 pt-1 retro-shadow3 absolute right-0 bottom-1">
+                <div className=" w-60 bg-white h-16 text-[#0249ac] font-sora font-black text-3xl flex items-center  pl-6 pt-1 retro-shadow3 absolute right-0 bottom-1 lg:text-4xl lg:w-80  ">
                     TECH MEETS
                 </div>
             </div>
@@ -50,7 +51,7 @@ export const GlimpseOfPastEvents = () => {
 
 
 
-            <div className="relative sm:mt-8">
+            <div className="relative sm:mt-8 lg:mt-20">
 
                 <br />
                 <br />
@@ -75,7 +76,7 @@ export const GlimpseOfPastEvents = () => {
                 <br />
 
                 {/* TECH HACKATHON SECTION */}
-                <div className=" w-72 bg-white h-16 text-[#0249ac] font-sora font-black text-3xl flex items-center  pl-6 pt-1 retro-shadow3 absolute left-0 bottom-1">
+                <div className=" w-72 bg-white h-16 text-[#0249ac] font-sora font-black  text-3xl flex items-center  pl-6 pt-1 retro-shadow3 absolute left-0 bottom-1">
                     HACKATHONS
                 </div>
 
@@ -84,13 +85,15 @@ export const GlimpseOfPastEvents = () => {
                 <br />
                 <br />
                 
-                <p className=" text-white font-sora font-black text-2xl px-6">If you are interested you can sponsor us by clicking the button below</p>
+                <p className=" text-white font-sora font-black text-2xl px-6 
+                lg:text-3xl lg:px-10">If you are interested you can sponsor us by clicking the button below</p>
 
 
                 <br />
                 <br />
-                <div className=" bg-white w-40 h-10 flex justify-center items-center font-black font-sora 
-                text-[#0249ac] retro-shadow4">SPONSOR US</div>
+                <div className=" bg-white w-40 h-10 lg:w-60 lg:h-16 flex justify-center items-center font-black font-sora 
+                text-[#0249ac] retro-shadow4
+                lg:text-2xl">SPONSOR US</div>
                 <br />
                 <br />
 

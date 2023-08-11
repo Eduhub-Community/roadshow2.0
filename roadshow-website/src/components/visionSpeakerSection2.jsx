@@ -73,7 +73,8 @@ export const VisionSpeakerSection2 = () => {
 
                 <div className="flex flex-col justify-center items-center sm:items-end relative">
                     <p className=" text-[#0249ac] font-black text-2xl font-sora bg-white px-3 py-1 flex items-center justify-center relative 
-                    lg:text-4xl sm:right-60 lg:right-[22.5rem]">LINUS TORWALD</p>
+                    sm:absolute sm:top-[-2.5rem] sm:left-0
+                    lg:text-4xl ">LINUS TORWALD</p>
 
                     <p className=" py-4 font-jost font-ubuntu leading-6  sm:text-left sm:mr-11  lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
                 </div>
