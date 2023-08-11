@@ -19,7 +19,7 @@ export const VisionSpeakerSection2 = () => {
             </div>
 
             <p className=" px-8 py-8 font-ubuntu leading-6 sm:text-lg sm:leading-7 sm:mx-8 lg:text-xl lg:mx-12 xl:text-2xl
-            xl:my-12 xl:text-[1.45rem] xl:leading-7">It’s a community for learners by learners. The vision of this
+            xl:my-12 xl:text-[1.6rem] xl:leading-9 xl:px-32">It’s a community for learners by learners. The vision of this
                 community is to build an environment where people can learn,
                 implement and grow together. It provides people the opportunity
                 to work with peers, showcase their talent and enhance their skills
@@ -46,7 +46,7 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* SPEAKER 1 */}
-            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12">
+            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12 xl:px-40">
 
 
                 <br />
@@ -68,7 +68,8 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* SPEAKER 2 */}
-            <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 lg:px-12">
+            <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 lg:px-12
+            xl:px-40">
 
 
                 <br />
@@ -83,7 +84,7 @@ export const VisionSpeakerSection2 = () => {
                     xl:text-5xl xl:pt-2 xl:top-[-2.8rem] ">LINUS TORWALD</p>
 
                     <p className=" py-4 font-ubuntu leading-6  sm:text-left sm:mr-11  lg:text-xl sm:mt-4
-                    xl:text-[1.45rem] xl:leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                    xl:text-[1.45rem] xl:leading-7 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
                 </div>
 
             </div>

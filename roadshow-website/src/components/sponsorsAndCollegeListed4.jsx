@@ -22,7 +22,8 @@ export const SponsorsAndCollegeListed = () => {
             <br />
             <br />
             <div className="flex flex-col justify-center items-center 
-            lg:flex-row lg:justify-evenly">
+            lg:flex-row lg:justify-evenly
+            xl:py-20">
                 <img className="w-40" src={intel} alt="" />
                 <img className="w-40" src={intel} alt="" />
                 <img className="w-40" src={intel} alt="" />

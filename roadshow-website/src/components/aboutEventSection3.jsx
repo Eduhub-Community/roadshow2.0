@@ -17,7 +17,8 @@ export const AboutEventSection3 = () => {
 
             <div className="flex flex-col items-center">
                 <p className="font-ubuntu py-8 px-8 leading-6 sm:text-lg sm:my-8 sm:mx-8
-                lg:text-xl lg:mx-12 xl:text-[1.45rem]">
+                lg:text-xl lg:mx-12 xl:text-[1.6rem] 
+                xl:px-28 xl:leading-9 xl:py-20">
                     5 City College Roadshow is a initiative of Eduhub Community,
                     through this Roadshow we are trying to leverage some uncertain
                     colleges where we can setup some web3 culture on their campus
