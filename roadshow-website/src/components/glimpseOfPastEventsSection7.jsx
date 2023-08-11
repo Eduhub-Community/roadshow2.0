@@ -10,7 +10,7 @@ export const GlimpseOfPastEvents = () => {
 
 
     return (
-        <div className=" bg-[#2b2758] relative">
+        <div id="Section8" className=" bg-[#2b2758] relative">
             <div className=" relative 
             ">
                 <br />

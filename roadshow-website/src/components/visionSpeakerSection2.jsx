@@ -6,7 +6,7 @@ export const VisionSpeakerSection2 = () => {
 
 
     return (
-        <div >
+        <div id="Section2">
 
 
 

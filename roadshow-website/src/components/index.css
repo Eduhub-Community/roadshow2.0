@@ -163,3 +163,51 @@ body{
         font-family: var(--ff--ubuntu);
     }
 }
+
+
+/* doing for the superlarge screen */
+#NavbarMain{
+    max-width: 1920px;
+    
+}
+
+#HeroSectionId{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+
+#Section2{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+#Section3{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+#Section4{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+#Section5{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+#Section6{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+@media (min-width: 1920px) {
+    #Main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /* background-color: yellow; */
+    }
+}

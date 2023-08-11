@@ -6,7 +6,7 @@ export const WhySponsorSection = () => {
 
 
     return (
-        <div>
+        <div id="Section6">
 
             <br />
             <br />

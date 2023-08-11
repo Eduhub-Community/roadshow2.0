@@ -6,7 +6,7 @@ export const SponsorsAndCollegeListed = () => {
 
 
     return(
-        <div className="lg:mb-8">
+        <div id="Section4" className="lg:mb-8">
             <br />
 
             {/* SPONSORS SECTION */}
