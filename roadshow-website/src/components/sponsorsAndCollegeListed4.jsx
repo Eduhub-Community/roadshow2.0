@@ -10,7 +10,7 @@ export const SponsorsAndCollegeListed = () => {
             <br />
 
             {/* SPONSORS SECTION */}
-            <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup">
+            <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup retro-shadow2Opp">
                 SPONSORS
             </div>
 

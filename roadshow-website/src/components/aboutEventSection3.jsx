@@ -8,14 +8,14 @@ export const AboutEventSection3 = () => {
 
         <div>
             <br />
-            <div className=" w-72 bg-[#0249ac] h-16 text-white font-sora font-black text-3xl flex items-center justify-end pr-6 pt-1 retro-shadow2  belowNavbarPopup">
+            <div className=" w-72 bg-[#0249ac] h-16 text-white font-sora font-black text-3xl flex items-center justify-end pr-6 pt-1 retro-shadow2  belowNavbarPopup retro-shadow2Opp">
                 ABOUT EVENT
             </div>
 
 
 
             <div className="flex flex-col items-center">
-                <p className="font-jost py-8 px-8 leading-6">
+                <p className="font-jost py-8 px-8 leading-6 sm:text-lg sm:my-8">
                     5 City College Roadshow is a initiative of Eduhub Community,
                     through this Roadshow we are trying to leverage some uncertain
                     colleges where we can setup some web3 culture on their campus
