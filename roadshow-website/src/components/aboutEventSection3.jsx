@@ -8,7 +8,7 @@ export const AboutEventSection3 = () => {
 
         <div>
             <br />
-            <div className=" w-72 bg-[#0249ac] h-16 text-white font-sora font-black text-3xl flex items-center justify-end pr-6 pt-1 retro-shadow2  belowNavbarPopup retro-shadow2Opp
+            <div className=" w-72 bg-[#0249ac] h-16 text-white font-sora font-black text-3xl flex items-center justify-end pr-6 pt-1   belowNavbarPopup retro-shadow2Opp
             lg:text-5xl lg:w-[28rem] lg:h-20">
                 ABOUT EVENT
             </div>

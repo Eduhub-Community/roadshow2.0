@@ -11,7 +11,7 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* THE VISION SECTION */}
-            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1 retro-shadow2 
+            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1  
             retro-shadow2Opp sm:mt-12 sm:mb-4 
             lg:text-5xl lg:w-72 lg:h-20">
                 VISION
@@ -29,7 +29,7 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* THE SPEAKER SECTION */}
-            <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1 retro-shadow2 absolute right-0 belowNavbarPopup retro-shadow2Opp
+            <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 belowNavbarPopup retro-shadow2Opp
             lg:text-5xl lg:w-[20rem] lg:h-20">
                 SPEAKER
             </div>
@@ -76,7 +76,7 @@ export const VisionSpeakerSection2 = () => {
                     sm:absolute sm:top-[-2rem] sm:left-0
                     lg:text-4xl ">LINUS TORWALD</p>
 
-                    <p className=" py-4 font-jost font-ubuntu leading-6  sm:text-left sm:mr-11  lg:text-xl sm:mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
+                    <p className=" py-4 font-ubuntu leading-6  sm:text-left sm:mr-11  lg:text-xl sm:mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
                 </div>
 
             </div>

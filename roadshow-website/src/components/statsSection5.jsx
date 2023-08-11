@@ -14,7 +14,7 @@ export const StatsSection4 = () => {
             <br />
             <br />
 
-            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-black text-3xl flex items-center justify-end pr-6 pt-1 retro-shadow2  belowNavbarPopup retro-shadow2Opp
+            <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-black text-3xl flex items-center justify-end pr-6 pt-1   belowNavbarPopup retro-shadow2Opp
             lg:text-5xl lg:w-72 lg:h-20">
                 STATS
             </div>
