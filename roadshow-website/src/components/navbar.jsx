@@ -1,5 +1,6 @@
 import "./index.css";
-import edu from "../assets/svg/eduhubWrittenLogo.svg";
+import eduWhiteLogo from "../assets/svg/eduhubWritterWhiteLogo.svg";
+import eduBlueLogo from "../assets/svg/eduhubWrittenBlueLogo.svg";
 import { gsap } from "gsap";
 
 export const Navbar = () => {
@@ -56,11 +57,12 @@ export const Navbar = () => {
 
 
     return (
-        <div id="NavbarMain" className="h-14 w-5/5 bg-[#003379] flex justify-center items-center sticky top-0 navbarLevel">
+        <div id="NavbarMain" className="h-14 w-5/5 bg-[#003379] flex justify-center items-center sticky top-0 navbarLevel 
+    ">
 
             {/* THE EDUHUB LOGO */}
             <div >
-                <img src={edu} alt="eduhubCommunityMainLogo" />
+                <img src={eduWhiteLogo} alt="eduhubCommunityMainLogo" />
             </div>
 
 
