@@ -25,6 +25,20 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    background-color: #e6e6e6;    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2b2758;
+    /* background-color: #0249ac; */
+    
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #0249ac;
+}
+
 /* ALL THE ROOT RELATED STUFFS DONE ABOVE THIS POINT */
 
 .font-sora{
