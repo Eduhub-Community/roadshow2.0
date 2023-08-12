@@ -88,6 +88,16 @@ export const GlimpseOfPastEvents = () => {
                 <br  className="xl:hidden"/>
                 <br  className="xl:hidden"/>
                 <br  className="xl:hidden"/>
+
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
+                <div className="2xl:w-5/5 2xl:h-[2rem]"></div>
                
 
                 {/* TECH HACKATHON SECTION */}

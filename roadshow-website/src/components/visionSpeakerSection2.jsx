@@ -14,12 +14,14 @@ export const VisionSpeakerSection2 = () => {
                 <div className=" w-48 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-14 pt-1  
             retro-shadow2Opp sm:mt-12 sm:mb-4 
             lg:text-5xl lg:w-72 lg:h-20
+            
             ">
                     VISION
                 </div>
 
                 <p className=" px-8 py-8 font-ubuntu leading-6 sm:text-lg sm:leading-7 sm:mx-8 lg:text-xl lg:mx-12 xl:text-2xl
-            xl:my-12 xl:text-[1.6rem] xl:leading-9 xl:px-32">It’s a community for learners by learners. The vision of this
+            xl:my-12 xl:text-[1.6rem] xl:leading-9 xl:px-32
+            2xl:px-[15rem] 2xl:py-[4rem]">It’s a community for learners by learners. The vision of this
                     community is to build an environment where people can learn,
                     implement and grow together. It provides people the opportunity
                     to work with peers, showcase their talent and enhance their skills
@@ -47,7 +49,8 @@ export const VisionSpeakerSection2 = () => {
 
 
             {/* SPEAKER 1 */}
-            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12 xl:px-40">
+            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12 xl:px-40 
+            2xl:px-[18rem] 2xl:py-[4rem]">
 
 
                 <br />
@@ -70,7 +73,8 @@ export const VisionSpeakerSection2 = () => {
 
             {/* SPEAKER 2 */}
             <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 lg:px-12
-            xl:px-40">
+            xl:px-40 
+            2xl:px-[18rem] 2xl:py-[4rem]">
 
 
                 <br />
