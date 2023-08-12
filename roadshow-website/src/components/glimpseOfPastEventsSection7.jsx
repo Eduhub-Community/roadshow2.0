@@ -8,6 +8,12 @@ import event4Img from "../assets/jpg/aceHackImageBillBoard.jpeg";
 export const GlimpseOfPastEvents = () => {
 
 
+    const redirectToSponsorPdf = () => {
+
+        window.open("https://drive.google.com/file/d/1ElpxQDLP3gl73DfS_SjEpHS83_HLnwYf/view", "_blank");
+    }
+
+
 
     return (
         <div id="Section8" className=" bg-[#2b2758] relative">
@@ -118,9 +124,9 @@ export const GlimpseOfPastEvents = () => {
 
                 <br className="" />
                 <br className="" />
-                <div className=" bg-white w-40 h-10 lg:w-60 lg:h-16 flex justify-center items-center font-black font-sora 
+                <div className=" bg-white w-40 h-10 lg:w-60 lg:h-16 flex justify-center items-center font-black font-sora cursor-pointer
                 text-[#0249ac] retro-shadow4
-                lg:text-2xl">SPONSOR US</div>
+                lg:text-2xl" onClick={redirectToSponsorPdf}>SPONSOR US</div>
                 <br className="" />
                 <br className="" />
 

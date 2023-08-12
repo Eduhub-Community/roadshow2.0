@@ -79,10 +79,10 @@ export const Navbar = () => {
 
                 <ul>
                     {/* THE HAMBURGER ELEMENTS */}
-                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="">Register</a></li>
+                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="https://lu.ma/college-roadshow" target="_blank rel='noreferrer'" >Register</a></li>
                     <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="#Section6">About Us</a></li>
                     <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="">Contact Us</a></li>
-                    <a target="_blank" rel='noreferrer' href="https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjbtcr44teAAxWW0GEKHTInCs4QPQgJ"  >
+                    <a target="_blank" rel='noreferrer' href="https://drive.google.com/file/d/1ElpxQDLP3gl73DfS_SjEpHS83_HLnwYf/view"   >
                         <li className=" my-4 mr-4 text-xl font-extrabold font-sora relative bg-white w-36 h-12 flex justify-center items-center top-4 text-[#0249ac] retro-shadow">Sponsor Us</li></a>
                 </ul>
             </div>
