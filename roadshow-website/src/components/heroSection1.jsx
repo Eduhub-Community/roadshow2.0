@@ -16,7 +16,7 @@ export const HeroSection1 = () => {
 
 
     let counter = 0;
-    let slides;
+    let slides,slidesNodeList;
 
 
 
@@ -34,8 +34,10 @@ export const HeroSection1 = () => {
         // console.log(counter);
         // console.log(slides);
 
-        if(counter == 1){
-            return ;
+        if(counter == 3){
+            counter = 0; 
+            slideImage();
+        
         }else{
 
             counter++;
@@ -48,7 +50,8 @@ export const HeroSection1 = () => {
     // TO MAKE THE IMAGES MOVE RIGHT
     const forPrev = () => {
         if(counter == 0){
-            return ;
+            counter = 3;
+            slideImage();
         }else{
             counter--;
             slideImage();
@@ -71,6 +74,9 @@ export const HeroSection1 = () => {
 
     useEffect(() => {
         slides = document.querySelectorAll(".slides");
+        // slides = Array.from(slidesNodeList);
+        // slides = slides.concat(slides,slides);
+        // console.log(slides);
         carosoul(slides);
 
     }, [])
@@ -98,6 +104,11 @@ export const HeroSection1 = () => {
 
 
             {/* THE IMAGES THAT ARE TO BE SHOWN */}
+            <img className="slides image1 absolute object-cover " src={window.innerWidth > 450 ? hawamahalNotReduced:  hawamahalReduced} alt="hawamahalImage" />
+
+            <img className="slides image2 absolute object-cover object-center " src={window.innerWidth > 450 ? rajPathNotReduced:  rajPathReduced} alt="hawamahalImage" />
+
+
             <img className="slides image1 absolute object-cover " src={window.innerWidth > 450 ? hawamahalNotReduced:  hawamahalReduced} alt="hawamahalImage" />
 
             <img className="slides image2 absolute object-cover object-center " src={window.innerWidth > 450 ? rajPathNotReduced:  rajPathReduced} alt="hawamahalImage" />

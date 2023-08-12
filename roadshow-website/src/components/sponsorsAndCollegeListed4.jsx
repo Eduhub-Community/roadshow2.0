@@ -1,5 +1,5 @@
 import "./index.css";
-import intel from "../assets/svg/intel.svg"
+// import intel from "../assets/svg/intel.svg"
 
 export const SponsorsAndCollegeListed = () => {
 
@@ -24,9 +24,11 @@ export const SponsorsAndCollegeListed = () => {
             <div className="flex flex-col justify-center items-center 
             lg:flex-row lg:justify-evenly
             xl:py-20">
-                <img className="w-40" src={intel} alt="" />
-                <img className="w-40" src={intel} alt="" />
-                <img className="w-40" src={intel} alt="" />
+                {/* <img className="w-40" src={intel} alt="" /> */}
+                {/* <img className="w-40" src={intel} alt="" /> */}
+                {/* <img className="w-40" src={intel} alt="" /> */}
+                <p className=" text-3xl font-sora font-black bg-white flex justify-center items-center pt-1 px-2
+                xl:text-5xl">COMMING SOON</p>
             </div>
         </div>
     );

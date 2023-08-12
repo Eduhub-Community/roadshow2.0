@@ -1,5 +1,5 @@
 import "./index.css";
-import speaker from "../assets/jpg/linuxTorwold.jpg"
+// import speaker from "../assets/jpg/linuxTorwold.jpg"
 
 export const VisionSpeakerSection2 = () => {
 
