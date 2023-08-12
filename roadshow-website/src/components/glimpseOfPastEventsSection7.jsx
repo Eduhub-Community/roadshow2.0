@@ -31,12 +31,12 @@ export const GlimpseOfPastEvents = () => {
                 <div className="sm:flex sm:flex-col sm:pl-8">
                     <div className=" bg-white w-4/5 flex flex-col justify-center items-center px-4 py-4 -rotate-6 relative left-12
                     xl:left-[40%] xl:bottom-[2rem] xl:w-[50%] 
-                    lg:w-3/5">
+                    lg:w-3/5 lg:left-[19rem]">
                         <img className=" " src={event1Img} alt="" />
                     </div>
                     <div className=" bg-white w-4/5 flex flex-col justify-center items-center px-4 py-4 rotate-6 relative  left-6 bottom-4
                     xl:left-[5%] xl:bottom-[8rem] xl:w-[50%]
-                    lg:w-3/5">
+                    lg:w-3/5 lg:left-[4rem]">
                         <img className=" " src={event2Img} alt="" />
                     </div>
 
@@ -71,6 +71,7 @@ export const GlimpseOfPastEvents = () => {
                 xl:h-[35rem]">
 
                     <div className=" bg-white w-4/5 flex flex-col justify-center items-center px-4 py-4 -rotate-12 relative left-12
+                    lg:left-[5rem]
                     xl:w-[50%] xl:bottom-[15rem] 
                     lg:w-3/5 ">
                         <img className=" " src={event3Img} alt="" />
@@ -78,7 +79,7 @@ export const GlimpseOfPastEvents = () => {
 
                     <div className=" bg-white w-4/5 flex flex-col justify-center items-center px-4 py-4 rotate-6 relative  left-6 bottom-4
                     xl:w-[50%] xl:bottom-[25rem] xl:left-[45%]
-                    lg:w-3/5">
+                    lg:w-3/5 lg:left-[18rem]">
                         <img className=" " src={event4Img} alt="" />
                     </div>
                 </div>
