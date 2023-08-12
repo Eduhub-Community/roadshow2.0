@@ -6,6 +6,10 @@ import right from "../assets/png/right.png"
 import left from "../assets/png/left.png"
 import hawamahalNotReduced from "../assets/jpg/hawamahaNotReducedl.jpg"
 import rajPathNotReduced from "../assets/jpg/rajPath.jpg"
+import victoriaMemorial from "../assets/jpg/victorialMemorial1.jpg"
+import victoriaMemorialSmall from "../assets/jpg/victorialMemorial1Small.jpg"
+import pune from "../assets/jpg/pune1.jpg"
+import puneSmall from "../assets/jpg/pune1Small.jpg"
 
 
 
@@ -16,7 +20,7 @@ export const HeroSection1 = () => {
 
 
     let counter = 0;
-    let slides,slidesNodeList;
+    let slides;
 
 
 
@@ -34,11 +38,11 @@ export const HeroSection1 = () => {
         // console.log(counter);
         // console.log(slides);
 
-        if(counter == 3){
-            counter = 0; 
+        if (counter == 3) {
+            counter = 0;
             slideImage();
-        
-        }else{
+
+        } else {
 
             counter++;
             slideImage();
@@ -49,14 +53,28 @@ export const HeroSection1 = () => {
 
     // TO MAKE THE IMAGES MOVE RIGHT
     const forPrev = () => {
-        if(counter == 0){
+        if (counter == 0) {
             counter = 3;
             slideImage();
-        }else{
+        } else {
             counter--;
             slideImage();
         }
     }
+
+
+    // TO MAKE THE IMAGES MOVE AUTOMATICALLY
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    async function Tutor() {
+        
+        for (let i = 1; i < 20; i--) {
+            await sleep(4000);
+            forNext();
+        }
+    }
+    Tutor()
 
 
 
@@ -104,16 +122,18 @@ export const HeroSection1 = () => {
 
 
             {/* THE IMAGES THAT ARE TO BE SHOWN */}
-            <img className="slides image1 absolute object-cover " src={window.innerWidth > 450 ? hawamahalNotReduced:  hawamahalReduced} alt="hawamahalImage" />
+            <img className="slides image1 absolute object-cover " src={window.innerWidth > 450 ? hawamahalNotReduced : hawamahalReduced} alt="hawamahalImage" />
 
-            <img className="slides image2 absolute object-cover object-center " src={window.innerWidth > 450 ? rajPathNotReduced:  rajPathReduced} alt="hawamahalImage" />
+            <img className="slides image2 absolute object-cover object-center " src={window.innerWidth > 450 ? rajPathNotReduced : rajPathReduced} alt="hawamahalImage" />
 
 
-            <img className="slides image1 absolute object-cover " src={window.innerWidth > 450 ? hawamahalNotReduced:  hawamahalReduced} alt="hawamahalImage" />
+            <img className="slides image1 absolute object-cover " src={window.innerWidth > 450 ? pune : puneSmall} alt="hawamahalImage" />
 
-            <img className="slides image2 absolute object-cover object-center " src={window.innerWidth > 450 ? rajPathNotReduced:  rajPathReduced} alt="hawamahalImage" />
 
-             
+            <img className="image2 slides absolute object-cover object-center" src={window.innerWidth > 450 ? victoriaMemorial : victoriaMemorialSmall} alt="hawamahalImage" />
+
+
+
 
 
 
