@@ -116,7 +116,7 @@ export const WhySponsorSection = () => {
             <p className="font-ubuntu py-8 px-8 leading-6 sm:text-lg sm:mx-8 lg:my-8 lg:mt-12 lg:mx-12 \
             xl:text-[1.6rem] xl:leading-9 xl:px-28 xl:my-28
             2xl:px-[15rem] 2xl:py-[4rem]">We’re on a mission to empower the next generation to discover better ways to learn, earn, and network. <br />
-            Eduhub Community is one of India's largest student communities that provides a one-stop platform for students to learn new skills, network with peers, and grow as an individual in the web3  and open source era.
+            Eduhub Community is one of India`s largest student communities that provides a one-stop platform for students to learn new skills, network with peers, and grow as an individual in the web3  and open source era.
             </p>
 
             <div className=" flex justify-center lg:my-12 my-4 mt-12">

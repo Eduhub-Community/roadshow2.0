@@ -8,6 +8,7 @@ import { SponsorsAndCollegeListed } from './components/sponsorsAndCollegeListed4
 import { StatsSection4 } from './components/statsSection5';
 import { WhySponsorSection } from './components/whySponsorUsSection6';
 import { GlimpseOfPastEvents } from './components/glimpseOfPastEventsSection7';
+import { ContactUs } from './components/contactUsSection8';
 
 
 
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <StatsSection4/>
     <WhySponsorSection/>
     <GlimpseOfPastEvents/>
+    <ContactUs/>
   </React.StrictMode>,
 )
 
