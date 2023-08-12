@@ -33,23 +33,23 @@ export const VisionSpeakerSection2 = () => {
 
 
                 {/* THE SPEAKER SECTION */}
-                <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 retro-shadow2Opp
-            lg:text-5xl lg:w-[20rem] lg:h-20
-            ">
-                    SPEAKER
-                </div>
+                {/* <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 retro-shadow2Opp
+                lg:text-5xl lg:w-[20rem] lg:h-20
+                ">
+                    CITIES
+                </div> */}
             </div>
 
 
+            {/* <br />
             <br />
             <br />
             <br />
-            <br />
-            <br />
+            <br /> */}
 
 
             {/* SPEAKER 1 */}
-            <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12 xl:px-40 
+            {/* <div className="flex flex-col sm:flex-row px-8 items-center sm:my-12 lg:px-12 xl:px-40 
             2xl:px-[18rem] 2xl:py-[4rem]">
 
 
@@ -67,12 +67,12 @@ export const VisionSpeakerSection2 = () => {
                 </div>
 
             </div>
-            <br />
+            <br /> */}
 
 
 
             {/* SPEAKER 2 */}
-            <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 lg:px-12
+            {/* <div className="flex flex-col sm:flex-row-reverse px-8 items-center sm:my-12 lg:px-12
             xl:px-40 
             2xl:px-[18rem] 2xl:py-[4rem]">
 
@@ -92,7 +92,19 @@ export const VisionSpeakerSection2 = () => {
                     xl:text-[1.45rem] xl:leading-7 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam delectus officiis, excepturi quod at, dolorum repudiandae unde repellat possimus a aliquid, ullam soluta voluptatum ipsam maiores accusantium nulla pariatur vel. Veritatis optio quaerat earum porro rem, accusantium delectus dolore placeat, est vitae exercitationem iusto nemo animi? Dolorum tenetur adipisci nihil.</p>
                 </div>
 
-            </div>
+            </div> */}
+
+
+
+
+            {/* CITIES */}
+
+            {/* <div>
+                <div>
+                    <img src="" alt="" />
+                    <p>JAIPUR</p>
+                </div>
+            </div> */}
 
 
         </div>
