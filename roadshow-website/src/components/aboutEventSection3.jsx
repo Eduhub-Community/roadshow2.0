@@ -5,7 +5,7 @@ export const AboutEventSection3 = () => {
 
     // THIS FUNCTION REDIRECTS YOU TO THE REGISTRATION PAGE
     const register = () => {
-        window.open("https://www.educative.io/", "_blank");
+        window.open("https://lu.ma/college-roadshow", "_blank");
     }
 
 
@@ -47,7 +47,8 @@ export const AboutEventSection3 = () => {
                 <br />
 
                 <div className="font-sora text-3xl bg-[#0249ac] font-black text-white px-2 py-2 my-1
-                xl:text-5xl retro-shadow4" onClick={register}>
+                xl:text-5xl retro-shadow4 cursor-pointer
+                lg:p-4" onClick={register}>
                     REGISTER
                 </div>
 
