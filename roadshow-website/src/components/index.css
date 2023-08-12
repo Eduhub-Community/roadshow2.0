@@ -21,6 +21,10 @@ body{
     background-color: #e6e6e6;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* ALL THE ROOT RELATED STUFFS DONE ABOVE THIS POINT */
 
 .font-sora{
@@ -236,3 +240,4 @@ body{
         background-color: #e6e6e6;
     }
 }
+
