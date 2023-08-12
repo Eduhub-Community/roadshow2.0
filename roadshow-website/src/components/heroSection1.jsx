@@ -144,12 +144,13 @@ export const HeroSection1 = () => {
                 sm:text-7xl
                  lg:text-8xl 
                  2xl:text-9xl"><span >EDUHUB</span> <br /> COMMUNITY</h1>
+                
+                <p className=" font-black text-white text-sm sm:text-xl lg:text-3xl   lg:ml-2
+                2xl:text-5xl">Unleash The Power Of BLOCKCHAIN &  OPENSOURCE </p>
 
-                <p className=" font-black text-white text-lg sm:text-xl lg:text-3xl   lg:ml-2
-                2xl:text-5xl">ROADSHOW</p>
-
+                
             </div>
-
+               
 
 
         </div>

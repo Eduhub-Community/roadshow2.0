@@ -3,6 +3,11 @@ import "./index.css";
 export const AboutEventSection3 = () => {
 
 
+    // THIS FUNCTION REDIRECTS YOU TO THE REGISTRATION PAGE
+    const register = () => {
+        window.open("https://www.educative.io/", "_blank");
+    }
+
 
     return (
 
@@ -31,10 +36,22 @@ export const AboutEventSection3 = () => {
                     workshops led by pioneers in the field, amazing swags, and
                     networking opportunities, learnings for attendees!</p>
 
+
                 <h1 className="font-sora text-3xl text-[#0249ac] font-black bg-white px-2 py-1 my-1 
                 xl:text-5xl">5 CITIES</h1>
                 <h1 className="font-sora text-3xl text-[#0249ac]  bg-white px-2 py-1 my-1 font-black 
                 xl:text-5xl">25 COLLEGES</h1>
+
+                <br />
+                <br />
+                <br />
+
+                <div className="font-sora text-3xl bg-[#0249ac] font-black text-white px-2 py-2 my-1
+                xl:text-5xl retro-shadow4" onClick={register}>
+                    REGISTER
+                </div>
+
+
             </div>
             <br />
         </div>

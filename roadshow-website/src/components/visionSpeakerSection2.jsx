@@ -31,13 +31,51 @@ export const VisionSpeakerSection2 = () => {
 
 
 
+            </div>
 
+
+            <div>
                 {/* THE SPEAKER SECTION */}
-                {/* <div className=" w-56 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0 retro-shadow2Opp
-                lg:text-5xl lg:w-[20rem] lg:h-20
-                ">
+                <div className=" w-60 bg-[#0249ac] h-16 text-white font-sora font-extrabold text-3xl flex items-center  pl-6 pt-1  absolute right-0  retro-shadow2Opp z-30
+            lg:text-5xl lg:w-[24rem] lg:h-20">
                     CITIES
-                </div> */}
+                </div>
+
+                <div className="w-5/5 h-[2rem]"></div>
+                <div className="w-5/5 h-[2rem]"></div>
+                <div className="w-5/5 h-[2rem]"></div>
+                <div className="md:w-5/5 md:h-[2rem]"></div>
+                <div className="md:w-5/5 md:h-[2rem]"></div>
+                
+
+                <ul className="flex flex-col justify-center items-center
+                sm:flex-row sm:justify-evenly">
+                    <li className=" text-3xl font-sora font-black p-4
+                    sm:text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl
+                    sm:p-2 
+                    lg:bg-white lg:text-[#0249ac]">Jaipur</li>
+                    <li className=" text-3xl font-sora font-black p-4
+                    sm:text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl
+                    sm:p-2 
+                    lg:bg-white lg:text-[#0249ac]">Delhi</li>
+                    <li className=" text-3xl font-sora font-black p-4
+                    sm:text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl
+                    sm:p-2 
+                    lg:bg-white lg:text-[#0249ac]">Pune</li>
+                    <li className=" text-3xl font-sora font-black p-4
+                    sm:text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl
+                    sm:p-2 
+                    lg:bg-white lg:text-[#0249ac]">Kolkata</li>
+                    <li className=" text-3xl font-sora font-black p-4
+                    sm:text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl
+                    sm:p-2 
+                    lg:bg-white lg:text-[#0249ac]">Bangalore</li>
+                </ul>
+
+                <div className="md:w-5/5 md:h-[2rem]"></div>
+                <div className="md:w-5/5 md:h-[2rem]"></div>
+
+                    
             </div>
 
 

@@ -41,7 +41,7 @@ export const Navbar = () => {
             bar2.classList.add("ham2");
             bar3.classList.add("ham3");
 
-            
+
             // bar1.style.rotate = '45deg';
 
             gsap.to("#navbarHamBurgerPopUp", {
@@ -67,7 +67,7 @@ export const Navbar = () => {
 
 
             {/* THE HAMBURGER MENU */}
-            <div id="hamburgerMenu" className=" absolute w-10 h-10 bg-[##0249ac] rounded-full right-4 z-50 flex flex-col justify-center items-center" onClick={hamburgerMenuPopUp}>
+            <div id="hamburgerMenu" className=" absolute w-10 h-10 bg-[##0249ac] rounded-full right-4 z-50 flex flex-col justify-center items-center cursor-pointer" onClick={hamburgerMenuPopUp}>
 
                 <div id="ham1" className="w-8 h-1 bg-white absolute top-2 lines rounded-md"></div>
                 <div id="ham2" className="w-8 h-1 bg-white absolute lines rounded-md"></div>
@@ -79,10 +79,11 @@ export const Navbar = () => {
 
                 <ul>
                     {/* THE HAMBURGER ELEMENTS */}
-                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora ">Register</li>
-                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora ">About Us</li>
-                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora ">Contact Us</li>
-                    <li className=" my-4 mr-4 text-xl font-extrabold font-sora relative bg-white w-36 h-12 flex justify-center items-center top-4 text-[#0249ac] retro-shadow">Sponsor Us</li>
+                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="">Register</a></li>
+                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="#Section6">About Us</a></li>
+                    <li className=" my-4 mr-4 text-xl font-bold text-white font-sora "><a href="">Contact Us</a></li>
+                    <a target="_blank" rel='noreferrer' href="https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjbtcr44teAAxWW0GEKHTInCs4QPQgJ"  >
+                        <li className=" my-4 mr-4 text-xl font-extrabold font-sora relative bg-white w-36 h-12 flex justify-center items-center top-4 text-[#0249ac] retro-shadow">Sponsor Us</li></a>
                 </ul>
             </div>
         </div>
