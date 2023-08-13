@@ -198,6 +198,8 @@ html{
 /* doing for the superlarge screen */
 #NavbarMain{
     max-width: 1920px;
+    width: 100%;
+    opacity: 0;
     
 }
 

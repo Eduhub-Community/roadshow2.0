@@ -2,11 +2,58 @@ import "./index.css";
 import eduWhiteLogo from "../assets/svg/eduhubWritterWhiteLogo.svg";
 // import eduBlueLogo from "../assets/svg/eduhubWrittenBlueLogo.svg";
 import { gsap } from "gsap";
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { useEffect } from "react";
 
 export const Navbar = () => {
 
     var counter = 0;
 
+    gsap.registerPlugin(ScrollTrigger);
+    // let anime = gsap.timeline();
+
+    
+    
+    useEffect(() => {
+
+        // let anime = gsap.timeline();
+
+
+        gsap.to("#NavbarMain" , {
+            scrollTrigger: {
+                trigger: "#Section2",
+                markers: true,
+                toggleActions: 'play reverse play reverse',
+                endTrigger: "#Section8",
+                start: "top 10%",
+                end: "top 15%"
+            },
+            opacity: 1,
+            
+            
+        });
+
+       
+        
+
+
+        // .to("#NavbarMain" , {
+        //     scrollTrigger: {
+        //         trigger: "#Section8",
+        //         markers: true,
+        //         toggleActions: 'play none none reverse',
+        //         start: "top 10%",
+        //         end:"10% "
+        //     },
+        //     opacity: 0,
+        //     duration: 1,
+        // });
+    })
+
+    
+
+    
+    
 
 
 
@@ -57,7 +104,7 @@ export const Navbar = () => {
 
 
     return (
-        <div id="NavbarMain" className="h-14 w-5/5 bg-[#003379] flex justify-center items-center sticky top-0 navbarLevel 
+        <div id="NavbarMain" className="h-14 w-5/5 bg-[#003379] flex justify-center items-center fixed top-0 navbarLevel 
     ">
 
             {/* THE EDUHUB LOGO */}
