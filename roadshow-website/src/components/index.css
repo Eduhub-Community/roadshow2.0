@@ -39,6 +39,18 @@ html{
     background-color: #0249ac;
 }
 
+/* the text selection part */
+
+::-moz-selection { /* Code for Firefox */
+    color: #0249ac;
+    background: white;
+  }
+  
+  ::selection {
+    color: #0249ac;
+    background: white;
+  }
+
 /* ALL THE ROOT RELATED STUFFS DONE ABOVE THIS POINT */
 
 .font-sora{
