@@ -18,11 +18,11 @@ export const Navbar = () => {
 
         // let anime = gsap.timeline();
 
-
+        
         gsap.to("#NavbarMain" , {
             scrollTrigger: {
                 trigger: "#Section2",
-                markers: true,
+                // markers: true,
                 toggleActions: 'play reverse play reverse',
                 endTrigger: "#Section8",
                 start: "top 10%",
@@ -32,23 +32,13 @@ export const Navbar = () => {
             
             
         });
-
+        
+    })
        
         
 
 
-        // .to("#NavbarMain" , {
-        //     scrollTrigger: {
-        //         trigger: "#Section8",
-        //         markers: true,
-        //         toggleActions: 'play none none reverse',
-        //         start: "top 10%",
-        //         end:"10% "
-        //     },
-        //     opacity: 0,
-        //     duration: 1,
-        // });
-    })
+        
 
     
 
