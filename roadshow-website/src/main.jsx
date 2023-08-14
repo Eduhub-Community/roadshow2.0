@@ -9,6 +9,7 @@ import { StatsSection4 } from './components/statsSection5';
 import { WhySponsorSection } from './components/whySponsorUsSection6';
 import { GlimpseOfPastEvents } from './components/glimpseOfPastEventsSection7';
 import { ContactUs } from './components/contactUsSection8';
+import { StartingAnimation } from './components/startingAnimation';
 
 
 
@@ -16,6 +17,7 @@ import { ContactUs } from './components/contactUsSection8';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <StartingAnimation/>
     <Navbar />
     <HeroSection1 />
     <VisionSpeakerSection2 />

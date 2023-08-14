@@ -10,6 +10,7 @@ import victoriaMemorial from "../assets/jpg/victorialMemorial1.jpg"
 import victoriaMemorialSmall from "../assets/jpg/victorialMemorial1Small.jpg"
 import pune from "../assets/jpg/pune1.jpg"
 import puneSmall from "../assets/jpg/pune1Small.jpg"
+import { gsap } from "gsap";
 
 
 
@@ -70,7 +71,7 @@ export const HeroSection1 = () => {
     async function Tutor() {
         
         for (let i = 1; i < 20; i--) {
-            await sleep(4000);
+            await sleep(10000);
             forNext();
         }
     }
@@ -87,17 +88,37 @@ export const HeroSection1 = () => {
         })
     }
 
-
+    const windowHeight = window.innerHeight;
 
 
     useEffect(() => {
+
+        const anime = gsap.timeline();
+
+
+        // THE HERO SECTION BOLD WRITING ANIMATIONN
+
+        anime.fromTo("#HeroSectionWriting" , {
+            
+            duration: 1,
+            y:`${windowHeight}`,
+            opacity:0,
+        },{
+            opacity:1,
+            delay: 3.7,
+            ease:"back",
+            y:0,
+        })
+        
+
+
         slides = document.querySelectorAll(".slides");
         // slides = Array.from(slidesNodeList);
         // slides = slides.concat(slides,slides);
         // console.log(slides);
         carosoul(slides);
 
-    }, [])
+    })
 
 
 
@@ -137,7 +158,7 @@ export const HeroSection1 = () => {
 
 
 
-            <div className=" absolute bottom-12 left-12 font-sora sm:bottom-32 sm:left-10">
+            <div id="HeroSectionWriting" className=" absolute bottom-12 left-12 font-sora sm:bottom-32 sm:left-10">
 
 
                 <h1 className=" font-black text-white text-4xl 
