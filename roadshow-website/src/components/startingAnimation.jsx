@@ -23,7 +23,7 @@ export const StartingAnimation = () => {
             ease:"none",
         })
         .to(".WhiteBackground", {
-            y:`${-windowHeight}`,
+            y:`${-windowHeight - 100}`,
             duration:2,
             ease:"power3",
         })
